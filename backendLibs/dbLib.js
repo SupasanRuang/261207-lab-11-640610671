@@ -43,6 +43,17 @@ let users = [
     password: "$2a$12$6lU7JRPa1lbbxnZlGBGJVOWcLxCxKphY2hyhMFydu8Yiyn.kWLAou",
     isAdmin: false,
   },
+
+  {
+    username: "user2",
+    password: "$2b$12$OX2vt94wIZqSNTiyAvjxluBoULqmS0T52kYWYWCZpJmo9y04XPrdO",
+    isAdmin: false,
+  },
+  {
+    username: "admin2",
+    password: "$2b$12$ne.G8iZfAAyZg7LQgAi2UOdUE7nSB.teBWMt2aiI86UMUINX9dvli",
+    isAdmin: true,
+  },
 ];
 
 export function readChatRoomsDB() {
